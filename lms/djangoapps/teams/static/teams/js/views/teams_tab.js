@@ -392,6 +392,7 @@
                             context: this.context,
                             model: topic,
                             collection: collection,
+                            myTeamsCollection: this.myTeamsCollection,
                             showSortControls: options.showSortControls
                         }),
                         searchFieldView = this.shouldShowSearch(topic) ?
